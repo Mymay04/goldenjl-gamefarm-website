@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoldenJL Gamefarm | Cebu Philippines</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #c40000;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #8b0000, #c40000);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #8b0000;
+}
+
+.about {
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    color: #8b0000;
+}
+
+.price {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #c40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #8b0000;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div style="color:white; font-weight:600;">GoldenJL Gamefarm</div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <img src="logo.png" alt="GoldenJL Gamefarm Logo">
+    <h1>GoldenJL Gamefarm</h1>
+    <p>Premium Lemon 48 Sweater & Quality Bloodlines | Cebu, Philippines</p>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p class="about">
+        GoldenJL Gamefarm specializes in breeding high-quality Lemon 48 Sweater
+        and other premium bloodlines. Our birds are raised with proper care,
+        nutrition, and conditioning to ensure strength, stamina, and excellent performance.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1595433562696-6a8b3b6dfb3f" alt="Lemon 48 Sweater">
+            <div class="card-content">
+                <h3>Lemon 48 Sweater</h3>
+                <p class="price">₱5,500</p>
+                <p>Top-quality Lemon 48 Sweater line with strong cutting ability.</p>
+                <button>Inquire Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371" alt="Hatch">
+            <div class="card-content">
+                <h3>Hatch Bloodline</h3>
+                <p class="price">₱4,800</p>
+                <p>Powerful and durable birds known for strength and endurance.</p>
+                <button>Inquire Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589927986089-35812388d1d5" alt="Chicks">
+            <div class="card-content">
+                <h3>Day Old Chicks</h3>
+                <p class="price">₱350 each</p>
+                <p>Healthy, vaccinated chicks from premium bloodlines.</p>
+                <button>Inquire Now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+        📍 Cebu, Philippines <br><br>
+        📞 +63 9XX XXX XXXX <br><br>
+        📧 goldenjlgamefarm@email.com
+    </p>
+</section>
+
+<footer>
+    © 2026 GoldenJL Gamefarm | All Rights Reserved
+</footer>
+
+</body>
+</html>
